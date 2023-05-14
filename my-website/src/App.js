@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Don't Learn React, it is bad for your health
         </a>
       </header>
     </div>
