@@ -9,8 +9,7 @@ const ExperienceCards = (props) => {
             {props.data.map((experience) => (
                 <Grid item xs={4} key={experience.id}>
                     <ExperienceCard
-                        image={experience.image.image}
-                        title={experience.title}
+                        data={experience}
                     ></ExperienceCard>
                 </Grid>
             ))}

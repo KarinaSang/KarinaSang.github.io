@@ -9,10 +9,10 @@ import resume from "../resources/resume.pdf";
 
 const Experience = () => {
     const experiences = [
-        { id: "1", image: { image }, title: "Card 1" },
-        { id: "2", image: { image }, title: "Card 2" },
-        { id: "3", image: { image }, title: "Card 3" },
-        { id: "4", image: { image }, title: "Card 4" },
+        { id: "1", image: { image }, title: "Card 1", description: "shdiaoisdoha", link: "www.google.com" },
+        { id: "2", image: { image }, title: "Card 2", description: "shdiaoisdoha", link: "www.google.com" },
+        { id: "3", image: { image }, title: "Card 3", description: "shdiaoisdoha", link: "www.google.com"  },
+        { id: "4", image: { image }, title: "Card 4", description: "shdiaoisdoha", link: "www.google.com"  },
     ];
 
     const resumeButtonHandler = () => {

@@ -1,13 +1,13 @@
 import React from "react";
 
 import {
-    Button,
     Card,
     Grid,
     Typography,
     Paper,
-    CardContent,
 } from "@mui/material";
+
+import ExperienceModel from "./ExperienceModal.js";
 
 const ExperienceCard = (props) => {
     return (
@@ -22,19 +22,17 @@ const ExperienceCard = (props) => {
                 >
                     <Grid item>
                         <img
-                            src={props.image}
+                            src={props.data.image.image}
                             alt="experience"
                             loading="lazy"
                             style={{ width: "100%", height: "100%" }}
                         />
                     </Grid>
                     <Grid item>
-                        <Typography variant="h4">{props.title}</Typography>
+                        <Typography variant="h4">{props.data.title}</Typography>
                     </Grid>
                     <Grid item>
-                        <Button color="error" variant="contained">
-                            View More
-                        </Button>
+                        <ExperienceModel data={props.data}/>
                     </Grid>
                 </Grid>
             </Paper>
