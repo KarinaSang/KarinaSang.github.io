@@ -7,7 +7,7 @@ const ExperienceCards = (props) => {
     return (
         <Grid container spacing={6}>
             {props.data.map((experience) => (
-                <Grid item xs={4} key={experience.id}>
+                <Grid item xs key={experience.id}>
                     <ExperienceCard
                         data={experience}
                     ></ExperienceCard>

@@ -13,16 +13,16 @@ const TeachingCard = (props) => {
                         src={props.image}
                         alt="teaching"
                         loading="lazy"
-                        style={{ width: "100%", height: "100%" }}
+                        style={{ width: "100%", height: "100%", maxWidth: "400px" }}
                     />
                 </Grid>
                 <Grid item xs={6} my="auto">
                     <Typography variant="h3">
                         {props.title}
                     </Typography>
-                    <Typography variant="p">{props.content}</Typography>
+                    <Typography variant="h5">{props.content}</Typography>
                     <Grid container spacing={4} my="auto">
-                        <Grid item xs={6}>
+                        <Grid item xs>
                             <Button
                                 color="error"
                                 variant="contained"
@@ -31,7 +31,7 @@ const TeachingCard = (props) => {
                                 View Class Schedule
                             </Button>
                         </Grid>
-                        <Grid item xs={6}>
+                        <Grid item xs>
                             <Button
                                 color="success"
                                 variant="contained"

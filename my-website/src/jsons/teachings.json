@@ -1,20 +1,20 @@
 [
     {
         "id": "1",
-        "image": "/resources/test_image.png",
-        "title": "AP Java",
-        "content": "saidhaisid"
+        "image": "/resources/apcs.jpeg",
+        "title": "AP CS (Java)",
+        "content": "This comprehensive course is designed to provide students with the knowledge and skills necessary to excel in the AP Computer Science A exam. Whether you have some prior programming experience or are looking to strengthen your skills specifically in Java, this course will help you develop a solid foundation in Java programming concepts and prepare you for success in the AP exam"
     },
     {
         "id": "2",
-        "image": "/resources/test_image.png",
+        "image": "/resources/fxgl.jpeg",
         "title": "Intro to Game Development (Java)",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "content": "This course is designed for students who already possess a basic understanding on Java programming and object-oriented priciples. Throughout the course, students will build various games using FXGL, the most popular Java game engine"
     },
     {
         "id": "3",
-        "image": "/resources/test_image.png",
+        "image": "/resources/ccc.webp",
         "title": "University of Waterloo Programming Contest (CCC)",
-        "content": "hello"
+        "content": "This course is designed for students who wish to participate in CCC hosted by the University of Waterloo. CCC is a competitive programming contest that tests students' ability to solve algorithmic problems efficiently within time constraints. In this course, students will learn about various algorithmic techniques and data structures commonly encountered in CCC"
     }
 ]
