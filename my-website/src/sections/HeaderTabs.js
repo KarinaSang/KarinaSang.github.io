@@ -10,6 +10,7 @@ const HeaderTabs = (props) => {
         <Tabs
             value={props.selected}
             onChange={handleChange}
+            variant="scrollable"
             sx={{
                 "& .MuiTabs-indicator": { backgroundColor: "#e0e0ff" },
                 "& .Mui-selected ": { color: "#e0e0ff" },
