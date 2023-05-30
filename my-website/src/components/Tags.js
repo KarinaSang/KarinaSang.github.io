@@ -1,7 +1,9 @@
 import React from "react";
 
 import { Stack } from "@mui/material";
+
 import Tag from "./Tag.js";
+import me from "../jsons/me.json";
 
 const Tags = () => {
     return (
@@ -11,18 +13,9 @@ const Tags = () => {
             useFlexGap
             flexWrap="wrap"
         >
-            <Tag
-                tooltip="I worked with Spring Boot for 4 out of 5 of my past internships"
-                buttonText="Java Spring Boot Expert"
-            />
-            <Tag
-                tooltip="I built this website with React and Material UI!"
-                buttonText="React Newbie"
-            />{" "}
-            <Tag
-                tooltip="DP questions with Python can be so easy"
-                buttonText="Python Leetcoder"
-            />
+            {me.tags.map((tag) => 
+                <Tag key={tag.id} buttonText={tag.text} tooltip={tag.tooltip} />
+            )}
         </Stack>
     );
 };

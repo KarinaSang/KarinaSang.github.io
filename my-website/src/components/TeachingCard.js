@@ -17,7 +17,7 @@ const TeachingCard = (props) => {
                     />
                 </Grid>
                 <Grid item xs={6} my="auto">
-                    <Typography variant="h3" pb={2}>
+                    <Typography variant="h3">
                         {props.title}
                     </Typography>
                     <Typography variant="p">{props.content}</Typography>

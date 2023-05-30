@@ -42,10 +42,18 @@ const theme = createTheme({
         h4: {
             fontSize: "1.2rem",
         },
-        p: {
-            fontSize: "0.9rem",
+        h5: {
+            fontSize: "1.0rem",
             fontWeight: "400",
             color: "#242464",
+            whiteSpace: "pre-wrap"
+        },
+        h6: {
+            fontSize: "1.0rem",
+            fontStyle: "italic",
+            fontWeight: "400",
+            color: "#242464",
+            whiteSpace: "pre-wrap" 
         },
         button: {
             textTransform: "none",
@@ -60,6 +68,14 @@ const theme = createTheme({
                     ":hover": { transform: "scale3d(1.05, 1.05, 1)" },
                     borderRadius: "10px",
                     transition: "transform 0.15s ease-in-out",
+                },
+            },
+        },
+        MuiTypography: {
+            styleOverrides: {
+                root: {
+                    marginTop: "1%",
+                    marginBottom: "1%",
                 },
             },
         },

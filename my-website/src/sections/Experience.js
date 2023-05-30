@@ -4,17 +4,10 @@ import { Box, Typography, Button, Grid } from "@mui/material";
 import DownloadForOfflineOutlinedIcon from "@mui/icons-material/DownloadForOfflineOutlined";
 
 import ExperienceCards from "../components/ExperienceCards.js";
-import image from "../resources/test_image.png";
-import resume from "../resources/resume.pdf";
+import resume from "../resume.pdf";
+import experiences from "../jsons/experiences.json"
 
 const Experience = () => {
-    const experiences = [
-        { id: "1", image: { image }, title: "Card 1", description: "shdiaoisdoha", link: "www.google.com" },
-        { id: "2", image: { image }, title: "Card 2", description: "shdiaoisdoha", link: "www.google.com" },
-        { id: "3", image: { image }, title: "Card 3", description: "shdiaoisdoha", link: "www.google.com"  },
-        { id: "4", image: { image }, title: "Card 4", description: "shdiaoisdoha", link: "www.google.com"  },
-    ];
-
     const resumeButtonHandler = () => {
         window.open(resume);
     };

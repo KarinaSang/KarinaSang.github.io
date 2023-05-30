@@ -9,7 +9,7 @@ const TeachingCards = (props) => {
             {props.data.map((teaching) => (
                 <Grid item key={teaching.id} style={{ width: "100%" }}>
                     <TeachingCard
-                        image={teaching.image.image}
+                        image={teaching.image}
                         title={teaching.title}
                         content={teaching.content}
                     ></TeachingCard>

@@ -1,7 +1,8 @@
 import React from "react";
-import { Grid, Card, Typography, CardContent, Paper } from "@mui/material";
+import { Grid, Card, Typography, Paper } from "@mui/material";
+
 import Tags from "../components/Tags.js";
-import sketch from "../resources/sketch.png";
+import me from "../jsons/me.json";
 
 const About = () => {
     return (
@@ -9,18 +10,13 @@ const About = () => {
             <Grid item xs={6}>
                 <Grid container rowSpacing={2}>
                     <Grid item>
-                        <Typography variant="h1">Hi, I am Karina.</Typography>
+                        <Typography variant="h1">{me.p1}</Typography>
                     </Grid>
                     <Grid item>
-                        <Typography variant="h4">
-                            I am a passionate software developer and I love
-                            bunnies.
-                        </Typography>
+                        <Typography variant="h4">{me.p2}</Typography>
                     </Grid>
                     <Grid item>
-                        <Typography variant="h4">
-                            How I define myself:
-                        </Typography>
+                        <Typography variant="h4">{me.p3}</Typography>
                     </Grid>
                     <Grid item>
                         <Tags />
@@ -30,8 +26,8 @@ const About = () => {
             <Grid item xs={6}>
                 <Paper elevation={10}>
                     <img
-                        src={sketch}
-                        alt="A sketch of me made by my sister"
+                        src={me.img}
+                        alt={me.imgAltText}
                         loading="lazy"
                         style={{ width: "100%", height: "100%" }}
                     />
