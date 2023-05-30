@@ -1,0 +1,24 @@
+{
+    "p1": "Hi, I am Karina.",
+    "p2": "I am a passionate software developer and I love bunnies.",
+    "p3": "How I define myself:",
+    "img": "/resources/sketch.png",
+    "imgAltText": "A sketch of me made by my sister",
+    "tags": [
+        {
+            "id": 1,
+            "text": "Java Spring Boot Expert",
+            "tooltip": "I worked with Spring Boot for 4 out of 5 of my past internships"
+        },
+        {
+            "id": 2,
+            "text": "React Newbie",
+            "tooltip": "I built this website with React and Material UI!"
+        },
+        {
+            "id": 3,
+            "text": "Python Leetcoder",
+            "tooltip": "DP questions with Python can be so easy"
+        }
+    ]
+}

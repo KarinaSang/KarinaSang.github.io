@@ -1,0 +1,61 @@
+[
+    {
+        "id": "1",
+        "image": "/resources/uniconnect_combined.jpeg",
+        "title": "UniConnect",
+        "description": [
+            "UniConnect is a mobile application aims to assist university students in finding nearby study mates.",
+            "UniConnect offers a variety of features including:",
+            "\t1. Filtering nearby libraries and other study places",
+            "\t2. Creating/joining study groups",
+            "\t3. Chatting with integration to ChatGPT"
+        ],
+        "language": "Languages: JavaScript, TypeScript",
+        "framework": "Tools/Frameworks: React Native, Feathers.js, OpenAI, Socket.io, MongoDB, Expo",
+        "link": "",
+        "video": [
+            {
+                "link": "https://drive.google.com/file/d/1WJJh4YVUn6dMyXXY8WsmPgXQMrX9DUzj/view?usp=drive_link",
+                "description": "Registering and loging in "
+            },
+            {
+                "link": "https://drive.google.com/file/d/1Ja5p5QZvbKb4_VnIRl-zBWlv9BbHnJAs/view?usp=drive_link",
+                "description": "Viewing map with neaby locations"
+            },
+            {
+                "link": "https://drive.google.com/file/d/1U0oY3nsxgxIxKDnT7xyAUQBD3uOFNxbm/view?usp=drive_link",
+                "description": "Chatting with friends and ChatGPT"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "image": "/resources/uniconnect_combined.jpeg",
+        "title": "UniConnect",
+        "description": ["This project was done as a "],
+        "language": "Languages: JavaScript, TypeScript",
+        "framework": "Tools/Frameworks: React Native, Feathers.js, OpenAI, Socket.io, MongoDB, Expo",
+        "link": "",
+        "video": ""
+    },
+    {
+        "id": "3",
+        "image": "/resources/test_image.png",
+        "title": "Card 3",
+        "description": ["shdiaoisdoha"],
+        "language": "Languages: JavaScript, TypeScript",
+        "framework": "Tools/Frameworks: React Native, Feathers.js, OpenAI, Socket.io, MongoDB, Expo",
+        "link": "www.google.com",
+        "video": ""
+    },
+    {
+        "id": "4",
+        "image": "/resources/test_image.png",
+        "title": "Card 4",
+        "description": ["shdiaoisdoha"],
+        "language": "Languages: JavaScript, TypeScript",
+        "framework": "Tools/Frameworks: React Native, Feathers.js, OpenAI, Socket.io, MongoDB, Expo",
+        "link": "www.google.com",
+        "video": ""
+    }
+]
