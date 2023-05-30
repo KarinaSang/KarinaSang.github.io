@@ -16,7 +16,7 @@
         "video": [
             {
                 "link": "https://drive.google.com/file/d/1WJJh4YVUn6dMyXXY8WsmPgXQMrX9DUzj/view?usp=drive_link",
-                "description": "Registering and loging in "
+                "description": "Registering and loging in"
             },
             {
                 "link": "https://drive.google.com/file/d/1Ja5p5QZvbKb4_VnIRl-zBWlv9BbHnJAs/view?usp=drive_link",
@@ -30,32 +30,36 @@
     },
     {
         "id": "2",
-        "image": "/resources/uniconnect_combined.jpeg",
-        "title": "UniConnect",
-        "description": ["This project was done as a "],
-        "language": "Languages: JavaScript, TypeScript",
-        "framework": "Tools/Frameworks: React Native, Feathers.js, OpenAI, Socket.io, MongoDB, Expo",
-        "link": "",
+        "image": "/resources/conda.png",
+        "title": "Conda Release",
+        "description": [
+            "Conda Release is a software automation tool designed to facilitate faster and more reliable releases for the open-source Python package manager Conda.",
+            "Conda-release offers two options of execution:",
+            "\tRunning in Docker containers",
+            "\tDirectly executing the Python script"
+        ],
+        "language": "Language: Python",
+        "framework": "Tool/Framework: Docker",
+        "link": "https://github.com/fyu17/conda-release",
         "video": ""
     },
     {
         "id": "3",
-        "image": "/resources/test_image.png",
-        "title": "Card 3",
-        "description": ["shdiaoisdoha"],
-        "language": "Languages: JavaScript, TypeScript",
-        "framework": "Tools/Frameworks: React Native, Feathers.js, OpenAI, Socket.io, MongoDB, Expo",
-        "link": "www.google.com",
-        "video": ""
-    },
-    {
-        "id": "4",
-        "image": "/resources/test_image.png",
-        "title": "Card 4",
-        "description": ["shdiaoisdoha"],
-        "language": "Languages: JavaScript, TypeScript",
-        "framework": "Tools/Frameworks: React Native, Feathers.js, OpenAI, Socket.io, MongoDB, Expo",
-        "link": "www.google.com",
-        "video": ""
+        "image": "/resources/mealplanner_combined.jpg",
+        "title": "Meal Planner",
+        "description": [
+            "Meal Planner is an Android application that allows users to save their favourite cooking recipes and plan their daily meals",
+            "Meal Planner supports parsing URL from certain cooking websites so users can save their favourite recipe with a single link",
+            "Meal Planner also provide calorie approximation based on the ingredients from each recipe"
+        ],
+        "language": "Languages: Java, XML",
+        "framework": "Tools/Frameworks: AndroidX, Jsoup, Junit, Joda-Time, Lombok, Gradle",
+        "link": "https://github.com/JingfeiPeng/cs446_android_team",
+        "video": [
+            {
+                "link": "https://drive.google.com/file/d/1SoQHZ1_agutVpnTNvKC0SECTXTJXR8An/view?usp=sharing",
+                "description": "Adding a Recipe and calculating the calorie"
+            }
+        ]
     }
 ]

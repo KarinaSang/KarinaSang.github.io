@@ -9,13 +9,11 @@ const Videos = (props) => {
                 {"Check out the videos demos here:"}
             </Typography>
             {props.data.map((video) => (
-                <Tooltip title={video.description}>
-                    <Link
-                        href={video.link}
-                        target="_blank"
-                        key={Math.floor(Math.random() * Date.now())}
-                        mx={2}
-                    >
+                <Tooltip
+                    title={video.description}
+                    key={Math.floor(Math.random() * Date.now())}
+                >
+                    <Link href={video.link} target="_blank" mx={2}>
                         <PlayCircleIcon
                             color="error"
                             fontSize="large"
