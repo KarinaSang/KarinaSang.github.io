@@ -4,6 +4,7 @@
   "homepage": "https://KarinaSang.github.io",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@fontsource/roboto": "^4.5.8",
@@ -11,6 +12,7 @@
     "@mui/material": "^5.13.0",
     "@mui/styles": "^5.12.3",
     "eslint-config-react-app": "^7.0.1",
+    "firebase": "^9.22.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "^5.0.1",

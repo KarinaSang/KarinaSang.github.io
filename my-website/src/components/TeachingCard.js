@@ -1,6 +1,13 @@
-import { Typography, Grid, Card, Button, autocompleteClasses } from "@mui/material";
+import {
+    Typography,
+    Grid,
+    Card,
+    Button,
+    autocompleteClasses,
+} from "@mui/material";
 import DownloadForOfflineOutlinedIcon from "@mui/icons-material/DownloadForOfflineOutlined";
-import QuestionAnswerOutlinedIcon from "@mui/icons-material/QuestionAnswerOutlined";
+
+import JoinClassModal from "./JoinClassModal.js";
 
 import React from "react";
 
@@ -13,14 +20,20 @@ const TeachingCard = (props) => {
                         src={props.image}
                         alt="teaching"
                         loading="lazy"
-                        style={{ maxWidth: "400px", width: "auto", height: "auto" }}
+                        style={{
+                            maxWidth: "400px",
+                            width: "auto",
+                            height: "auto",
+                        }}
                     />
                 </Grid>
                 <Grid item xs my="auto">
                     <Typography variant="h3" p={2}>
                         {props.title}
                     </Typography>
-                    <Typography variant="h5" p={2}>{props.content}</Typography>
+                    <Typography variant="h5" p={2}>
+                        {props.content}
+                    </Typography>
                     <Grid container spacing={4} p={2}>
                         <Grid item xs>
                             <Button
@@ -32,13 +45,7 @@ const TeachingCard = (props) => {
                             </Button>
                         </Grid>
                         <Grid item xs>
-                            <Button
-                                color="success"
-                                variant="contained"
-                                endIcon={<QuestionAnswerOutlinedIcon />}
-                            >
-                                Request to Join
-                            </Button>
+                            <JoinClassModal title={props.title}/>
                         </Grid>
                     </Grid>
                 </Grid>
