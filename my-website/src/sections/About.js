@@ -8,17 +8,17 @@ const About = () => {
     return (
         <Grid container spacing={4} alignItems="center">
             <Grid item xs={6}>
-                <Grid container rowSpacing={2}>
-                    <Grid item>
+                <Grid container rowSpacing={2} direction="column">
+                    <Grid item xs>
                         <Typography variant="h1">{me.p1}</Typography>
                     </Grid>
-                    <Grid item>
+                    <Grid item xs>
                         <Typography variant="h4">{me.p2}</Typography>
                     </Grid>
-                    <Grid item>
+                    <Grid item xs>
                         <Typography variant="h4">{me.p3}</Typography>
                     </Grid>
-                    <Grid item>
+                    <Grid item xs>
                         <Tags />
                     </Grid>
                 </Grid>

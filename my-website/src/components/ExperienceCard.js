@@ -19,7 +19,7 @@ const ExperienceCard = (props) => {
                         src={props.data.image}
                         alt="experience"
                         loading="lazy"
-                        style={{ width: "100%", height: "auto", minWidth: "200px"}}
+                        style={{ width: "100%", height: "auto", minWidth: "360px"}}
                     />
                 </Grid>
                 <Grid item>

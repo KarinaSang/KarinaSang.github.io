@@ -61,5 +61,29 @@
                 "description": "Adding a Recipe and calculating the calorie"
             }
         ]
+    },
+    {
+        "id": "4",
+        "image": "/resources/snakegame.png",
+        "title": "Snake",
+        "description": [
+            "This game involves creating a replica of the classic Snake game as a part of the CS349 User Interface course project at the University of Waterloo"
+        ],
+        "language": "Languages: Java",
+        "framework": "Tool/Framework: JavaFX, Gradle",
+        "link": "https://github.com/KarinaSang/snake-game",
+        "video": ""
+    },
+    {
+        "id": "5",
+        "image": "/resources/sketchit.png",
+        "title": "Sketch It",
+        "description": [
+            "This project was undertaken for the CS349 User Interface course, where the task involved creating a replica of the Windows Paint software with functionalities such as drawing lines, circles, rectangles, erasing, moving shapes, setting fill and line colors, and saving the created sketch"
+        ],
+        "language": "Languages: Java",
+        "framework": "Tool/Framework: JavaFX, Gradle",
+        "link": "https://github.com/KarinaSang/sketch-it",
+        "video": ""
     }
 ]

@@ -8,7 +8,7 @@ const TeachingCard = (props) => {
     return (
         <Card>
             <Grid container spacing={4}>
-                <Grid item xs>
+                <Grid item xs m="auto">
                     <img
                         src={props.image}
                         alt="teaching"
@@ -17,11 +17,11 @@ const TeachingCard = (props) => {
                     />
                 </Grid>
                 <Grid item xs my="auto">
-                    <Typography variant="h3">
+                    <Typography variant="h3" p={2}>
                         {props.title}
                     </Typography>
-                    <Typography variant="h5">{props.content}</Typography>
-                    <Grid container spacing={4} my="auto">
+                    <Typography variant="h5" p={2}>{props.content}</Typography>
+                    <Grid container spacing={4} p={2}>
                         <Grid item xs>
                             <Button
                                 color="error"
